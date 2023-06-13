@@ -51,7 +51,7 @@ if uploaded_file is not None:
         
                  
         scaleFactor=st.number_input(label="Scale Factor - Increase in the scale factor leads to increase in performance.",
-                        min_value=1.1,max_value=2,step=0.1)
+                        min_value=1.1,max_value=2.0,step=0.1)
         
 
                  
